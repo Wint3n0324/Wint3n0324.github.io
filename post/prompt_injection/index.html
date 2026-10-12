@@ -3,7 +3,7 @@
   lang="zh-cn" 
   data-theme-mode="auto"
   >
-  <head><meta charset="utf-8" />
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8" />
 <meta
   name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -12,7 +12,7 @@
 </title>
 <meta name="description" content="人类在神圣的沉默当中学会历史."/>
     <meta name="keywords" content="CTF, AI, LLM" /><script>
-  window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"base\":\"https://winston-charles-franklin.github.io/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"pt-br\":\"Falha ao copiar (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"pt-br\":\"Copiado com sucesso (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_4k4bc36ef96\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"pt-br\":\"Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
+  window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"base\":\"http://localhost:1313/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"pt-br\":\"Falha ao copiar (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"pt-br\":\"Copiado com sucesso (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_4k4bc36ef96\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"pt-br\":\"Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
   
 </script>
 <link
@@ -45,14 +45,14 @@
     as="font"
     type="font/woff2"
     crossorigin="anonymous"
-  /><link rel="stylesheet" href="/css/loader.min.e690a8d7602c611ec7805427197b461a69178b60385e877b152998bbc3c43c59.css" />
+  /><link rel="stylesheet" href="/css/loader.css" />
 <meta property="og:type" content="website" />
   <meta property="og:title" content="提示词注入 | Winston-Charles-Franklin" />
   <meta
     property="og:description"
     content="人类在神圣的沉默当中学会历史."
   />
-  <meta property="og:url" content="https://winston-charles-franklin.github.io/post/prompt_injection/" />
+  <meta property="og:url" content="http://localhost:1313/post/prompt_injection/" />
   <meta
     property="og:site_name"
     content="Le blog de Winston-Charles-Franklin"
@@ -65,7 +65,7 @@
   <meta property="article:published_time" content="2026-10-12T22:15:00&#43;08:00" />
   <meta property="article:modified_time" content="2026-10-12T22:15:00&#43;08:00" /><meta property="article:tag" content="AI" /><meta name="twitter:card" content="summary" />
   <meta name="twitter:image" content="/images/zhiyuan1.jpg" />
-<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.b62a52659de2fb1418a952e454de4f7566305efc09f194e1bedab77acf49bd33.css" />
+<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.css" />
 <link
     rel="preload"
     as="style"
@@ -393,20 +393,20 @@
 </span></span></code></pre></div><p>极难全面防御。面对多臂联合攻击，传统的单层意图分类器几乎完全失效。目前前沿的防御思路是引入“多智能体交叉验证（Multi-Agent Cross-Verification）”，即用另一个独立的、不可见的安全大模型，专门负责逆向审查最终输出的结果是否违规。但这会带来极大的算力延迟与成本。</p>
 </div>
     <footer class="article-footer"><blockquote class="article-copyright"><p><strong><span class="icon-user icon"></span>本文作者：</strong>Winston-Charles-Franklin</p><p>
-      <strong><span class="icon-link icon"></span>本文链接：</strong><a href="https://winston-charles-franklin.github.io/post/prompt_injection/">https://winston-charles-franklin.github.io/post/prompt_injection/</a>
+      <strong><span class="icon-link icon"></span>本文链接：</strong><a href="http://localhost:1313/post/prompt_injection/">http://localhost:1313/post/prompt_injection/</a>
     </p><p>
       
       <strong><span class="icon-copyright icon"></span>本文版权：</strong>
       本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener nofollow noreferrer" target="_blank"><span class="icon-creative-commons"></span>BY-NC-SA</a> 许可协议。转载请注明出处！
     </p>
     <span class="icon-creative-commons article-copyright-bg"></span></blockquote>
-<div class="share-wrapper"><a href="https://www.facebook.com/sharer/sharer.php?u=https://winston-charles-franklin.github.io/post/prompt_injection/" target="_blank" rel="noopener noreferrer" title="提示词注入">
+<div class="share-wrapper"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/post/prompt_injection/" target="_blank" rel="noopener noreferrer" title="提示词注入">
       <div class="share-icon icon icon-facebook"></div>
-    </a><a href="https://twitter.com/intent/tweet?url=https://winston-charles-franklin.github.io/post/prompt_injection/&amp;text=%e6%8f%90%e7%a4%ba%e8%af%8d%e6%b3%a8%e5%85%a5&amp;via=https://winston-charles-franklin.github.io/" target="_blank" rel="noopener noreferrer" title="提示词注入">
+    </a><a href="https://twitter.com/intent/tweet?url=http://localhost:1313/post/prompt_injection/&amp;text=%e6%8f%90%e7%a4%ba%e8%af%8d%e6%b3%a8%e5%85%a5&amp;via=http://localhost:1313/" target="_blank" rel="noopener noreferrer" title="提示词注入">
       <div class="share-icon icon icon-twitter"></div>
-    </a><a href="https://service.weibo.com/share/share.php?url=https://winston-charles-franklin.github.io/post/prompt_injection/&amp;appkey=&amp;title=%e6%8f%90%e7%a4%ba%e8%af%8d%e6%b3%a8%e5%85%a5&amp;pic=&amp;ralateUid=" target="_blank" rel="noopener noreferrer" title="提示词注入">
+    </a><a href="https://service.weibo.com/share/share.php?url=http://localhost:1313/post/prompt_injection/&amp;appkey=&amp;title=%e6%8f%90%e7%a4%ba%e8%af%8d%e6%b3%a8%e5%85%a5&amp;pic=&amp;ralateUid=" target="_blank" rel="noopener noreferrer" title="提示词注入">
       <div class="share-icon icon icon-weibo"></div>
-    </a><a href="https://connect.qq.com/widget/shareqq/index.html?url=https://winston-charles-franklin.github.io/post/prompt_injection/&amp;title=%e6%8f%90%e7%a4%ba%e8%af%8d%e6%b3%a8%e5%85%a5&amp;desc=%0d%e6%8f%90%e7%a4%ba%e8%af%8d%e6%b3%a8%e5%85%a5%0d%e5%8f%82%e8%80%83%e6%96%87%e7%ab%a0%ef%bc%9aCTF%e5%a4%a7%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%ef%bc%88LLM%ef%bc%89%e6%8f%90%e7%a4%ba%e8%af%8d%e6%b3%a8%e5%85%a512%e7%a7%8d%e6%96%b9%e6%b3%95%0a1.%20%e6%8c%87%e4%bb%a4%e8%a6%86%e7%9b%96%e4%b8%8e%e9%80%bb%e8%be%91%e5%a4%ba%e6%9d%83%20%28Instruction%20Override%29%0d%e6%a0%b8%e5%bf%83%e9%80%bb%e8%be%91%e6%98%af%e5%88%a9%e7%94%a8%e5%a4%a7%e6%a8%a1%e5%9e%8b%e5%af%b9%e2%80%9c%e6%9c%80%e6%96%b0%e6%8c%87%e4%bb%a4%e2%80%9d%e7%9a%84%e8%be%83%e9%ab%98%e6%9d%83%e9%87%8d%ef%bc%8c%e7%9b%b4%e6%8e%a5%e7%af%a1%e6%94%b9%e6%88%96%e5%ba%9f%e9%99%a4%e7%b3%bb%e7%bb%9f%e9%a2%84%e8%ae%be%e7%9a%84%e8%a7%84%e5%88%99%e3%80%82%0a%e6%a0%b8%e5%bf%83%e6%89%8b%e6%b3%95%ef%bc%9a%e4%bd%bf%e7%94%a8%e5%85%b7%e6%9c%89%e6%9e%81%e5%bc%ba%e5%91%bd%e4%bb%a4%e8%af%ad%e6%b0%94%e7%9a%84%e7%9f%ad%e8%af%ad%e6%88%aa%e6%96%ad%e4%b8%8a%e4%b8%8b%e6%96%87%e3%80%82%0a&amp;source=https://winston-charles-franklin.github.io/" target="_blank" rel="noopener noreferrer" title="提示词注入">
+    </a><a href="https://connect.qq.com/widget/shareqq/index.html?url=http://localhost:1313/post/prompt_injection/&amp;title=%e6%8f%90%e7%a4%ba%e8%af%8d%e6%b3%a8%e5%85%a5&amp;desc=%0d%e6%8f%90%e7%a4%ba%e8%af%8d%e6%b3%a8%e5%85%a5%0d%e5%8f%82%e8%80%83%e6%96%87%e7%ab%a0%ef%bc%9aCTF%e5%a4%a7%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%ef%bc%88LLM%ef%bc%89%e6%8f%90%e7%a4%ba%e8%af%8d%e6%b3%a8%e5%85%a512%e7%a7%8d%e6%96%b9%e6%b3%95%0a1.%20%e6%8c%87%e4%bb%a4%e8%a6%86%e7%9b%96%e4%b8%8e%e9%80%bb%e8%be%91%e5%a4%ba%e6%9d%83%20%28Instruction%20Override%29%0d%e6%a0%b8%e5%bf%83%e9%80%bb%e8%be%91%e6%98%af%e5%88%a9%e7%94%a8%e5%a4%a7%e6%a8%a1%e5%9e%8b%e5%af%b9%e2%80%9c%e6%9c%80%e6%96%b0%e6%8c%87%e4%bb%a4%e2%80%9d%e7%9a%84%e8%be%83%e9%ab%98%e6%9d%83%e9%87%8d%ef%bc%8c%e7%9b%b4%e6%8e%a5%e7%af%a1%e6%94%b9%e6%88%96%e5%ba%9f%e9%99%a4%e7%b3%bb%e7%bb%9f%e9%a2%84%e8%ae%be%e7%9a%84%e8%a7%84%e5%88%99%e3%80%82%0a%e6%a0%b8%e5%bf%83%e6%89%8b%e6%b3%95%ef%bc%9a%e4%bd%bf%e7%94%a8%e5%85%b7%e6%9c%89%e6%9e%81%e5%bc%ba%e5%91%bd%e4%bb%a4%e8%af%ad%e6%b0%94%e7%9a%84%e7%9f%ad%e8%af%ad%e6%88%aa%e6%96%ad%e4%b8%8a%e4%b8%8b%e6%96%87%e3%80%82%0a&amp;source=http://localhost:1313/" target="_blank" rel="noopener noreferrer" title="提示词注入">
       <div class="share-icon icon icon-qq"></div>
     </a><a href="javascript:;"  title="提示词注入">
       <div class="share-icon icon icon-weixin"><div id="share-weixin">
@@ -643,7 +643,7 @@
     src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
     integrity="sha384-3gT/vsepWkfz/ff7PpWNUeMzeWoH3cDhm/A8jM7ouoAK0/fP/9bcHHR5kHq2nf&#43;e" crossorigin="anonymous"></script><script
     src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js"
-    integrity="sha384-J08i8An/QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"></script><script src="/js/main.js" integrity="" crossorigin="anonymous" ></script><script src="/js/aos.js" integrity="" crossorigin="anonymous" ></script><script>
+    integrity="sha384-J08i8An/QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"></script><script src="/js/main.js" ></script><script src="/js/aos.js" ></script><script>
     var aosInit = () => {
       AOS.init({
         duration: 1000,
@@ -657,7 +657,7 @@
     } else {
       aosInit();
     }
-  </script><script src="/js/pjax_main.js" integrity="" crossorigin="anonymous" data-pjax></script><script>
+  </script><script src="/js/pjax_main.js" data-pjax></script><script>
     var ALGOLIA_CONFIG = {
       logo: '\/images\/algolia_logo.svg',
       algolia: {
@@ -678,7 +678,7 @@
     src="https://npm.webcache.cn/algoliasearch@4.17.1/dist/algoliasearch-lite.umd.js"
     deferintegrity="sha384-xvLS0jfKuoREs7pqkRI/OI8GcqohO5S&#43;jQz7ZBtQXnsXmD&#43;9jDOOY4cL6dCPzlrk" crossorigin="anonymous"></script><script
     src="https://npm.webcache.cn/@reimujs/instantsearch.js@4.57.0-beta.1/dist/instantsearch.production.min.js"
-    deferintegrity="sha384-aagKMe8nkqaP2DYQc8kkYOL5l&#43;M5Q2WH/Uhr4teOh0Ybp0RZj0kUSDm45qPikMjK" crossorigin="anonymous"></script><script src="/js/algolia_search.js" integrity="" crossorigin="anonymous" ></script><script
+    deferintegrity="sha384-aagKMe8nkqaP2DYQc8kkYOL5l&#43;M5Q2WH/Uhr4teOh0Ybp0RZj0kUSDm45qPikMjK" crossorigin="anonymous"></script><script src="/js/algolia_search.js" ></script><script
     src="https://npm.webcache.cn/mouse-firework@0.1.1/dist/index.umd.js"
     integrity="sha384-8LyaidD9GPxQQgLJO/WRw/O2h3BoNq/ApI/ecpvM6RsrCz2qP2ppBXUKihP4V/2d" crossorigin="anonymous"></script><script>
   if (! false  || !window.matchMedia('(max-width: 768px)').matches) {
@@ -691,7 +691,7 @@
   }
 </script><script
     src="https://npm.webcache.cn/theme-shokax-pjax@0.0.3/dist/index.umd.js"
-    integrity="sha384-xneY1WY8hOfUzswrE4CrYq35N4BdVcxqxwHPr9zawE/jMSCxD&#43;jAPU55x/jj3wlf" crossorigin="anonymous"></script><script src="/js/pjax.js" integrity="" crossorigin="anonymous" ></script><script
+    integrity="sha384-xneY1WY8hOfUzswrE4CrYq35N4BdVcxqxwHPr9zawE/jMSCxD&#43;jAPU55x/jj3wlf" crossorigin="anonymous"></script><script src="/js/pjax.js" ></script><script
     src="https://npm.webcache.cn/quicklink@3.0.1/dist/quicklink.umd.js"
     integrity="sha384-caMDqvgav/HWdEYQU1QRRHMLleigpL1YHAG0m371DhzfL8rRzUyOb&#43;bEHtwlmYjD" crossorigin="anonymous"></script><script data-pjax>
     window.quicklink?.listen({
@@ -707,11 +707,11 @@
         window.REIMU_POST = {
           author: "Winston-Charles-Franklin",
           title: "提示词注入",
-          url: "https:\/\/winston-charles-franklin.github.io\/post\/prompt_injection\/",
+          url: "http:\/\/localhost:1313\/post\/prompt_injection\/",
           description: "\r提示词注入\r参考文章：CTF大语言模型（LLM）提示词注入12种方法\n1. 指令覆盖与逻辑夺权 (Instruction Override)\r核心逻辑是利用大模型对“最新指令”的较高权重，直接篡改或废除系统预设的规则。\n核心手法：使用具有极强命令语气的短语截断上下文。\n",
-          cover: "https:\/\/winston-charles-franklin.github.io\/images\/zhiyuan1.jpg",
+          cover: "http:\/\/localhost:1313\/images\/zhiyuan1.jpg",
         };
-      </script><script src="/js/insert_highlight.js" integrity="" crossorigin="anonymous" data-pjax></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const initPswp = (gallery, children) => {
+      </script><script src="/js/insert_highlight.js" data-pjax></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const initPswp = (gallery, children) => {
           if (_$$(`${gallery} ${children}`).length > 0) {
             new PhotoSwipeLightbox({
               gallery,
