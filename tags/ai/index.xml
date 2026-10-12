@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on Le blog de Winston-Charles-Franklin</title>
+    <link>https://winston-charles-franklin.github.io/tags/ai/</link>
+    <description>Recent content from Le blog de Winston-Charles-Franklin</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+    <managingEditor>xxx@example.com (Winston-Charles-Franklin)</managingEditor>
+    <webMaster>xxx@example.com (Winston-Charles-Franklin)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Mon, 12 Oct 2026 22:15:00 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://winston-charles-franklin.github.io/tags/ai/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>提示词注入</title>
+      <link>https://winston-charles-franklin.github.io/post/prompt_injection/</link>
+      <pubDate>Mon, 12 Oct 2026 22:15:00 &#43;0800</pubDate>
+      <author>xxx@example.com (Winston-Charles-Franklin)</author>
+      <guid>https://winston-charles-franklin.github.io/post/prompt_injection/</guid>
+      <description>
+        <![CDATA[<h1>提示词注入</h1><p>作者：Winston-Charles-Franklin（xxx@example.com）</p>
+        
+          <h1 id="提示词注入">
+<a class="header-anchor" href="#%e6%8f%90%e7%a4%ba%e8%af%8d%e6%b3%a8%e5%85%a5"></a>
+提示词注入
+</h1><p>参考文章：<a href="https://blog.csdn.net/2401_89382898/article/details/160192499">CTF大语言模型（LLM）提示词注入12种方法</a></p>
+<h3 id="1-指令覆盖与逻辑夺权-instruction-override">
+<a class="header-anchor" href="#1-%e6%8c%87%e4%bb%a4%e8%a6%86%e7%9b%96%e4%b8%8e%e9%80%bb%e8%be%91%e5%a4%ba%e6%9d%83-instruction-override"></a>
+1. 指令覆盖与逻辑夺权 (Instruction Override)
+</h3><p>核心逻辑是利用大模型对“最新指令”的较高权重，直接篡改或废除系统预设的规则。</p>
+<p>核心手法：使用具有极强命令语气的短语截断上下文。</p>
+        
+        <hr><p>本文2026-10-12首发于<a href='https://winston-charles-franklin.github.io/'>Le blog de Winston-Charles-Franklin</a>，最后修改于2026-10-12</p>]]>
+      </description>
+      
+        <category>学习笔记</category>
+      
+    </item>
+    
+  </channel>
+</rss>

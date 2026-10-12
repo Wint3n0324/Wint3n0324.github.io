@@ -168,7 +168,7 @@
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div><div class="sidebar-state-number">5</div>
+    <div>文章</div><div class="sidebar-state-number">6</div>
   </div>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>分类</div>
@@ -178,7 +178,7 @@
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
     <div>标签</div>
-    <div class="sidebar-state-number">5</div>
+    <div class="sidebar-state-number">6</div>
   </a>
 </div>
 <div class="sidebar-social"><div class="icon-github sidebar-social-icon">
@@ -270,6 +270,15 @@
               </li><li class="tag-item">
                 <a
                   class="tag-link"
+                  href="/tags/ai/"
+                  aria-label="标签: AI"
+                  title="AI"
+                >
+                  AI
+                </a>
+              </li><li class="tag-item">
+                <a
+                  class="tag-link"
                   href="/tags/ctf/"
                   aria-label="标签: CTF"
                   title="CTF"
@@ -318,6 +327,11 @@
             >2025</a
           ><a
             style="font-size:10px"
+            href="/tags/ai/"
+            aria-label="标签: AI"
+            >AI</a
+          ><a
+            style="font-size:10px"
             href="/tags/ctf/"
             aria-label="标签: CTF"
             >CTF</a
@@ -346,6 +360,8 @@
       <h3 class="widget-title">最新文章</h3>
       <div class="widget">
         <ul><li>
+              <a href="/post/prompt_injection/" title="提示词注入">提示词注入</a>
+            </li><li>
               <a href="/post/2025yes/" title="2025年终总结">2025年终总结</a>
             </li><li>
               <a href="/post/java_file_io/" title="Java文件读写">Java文件读写</a>
@@ -353,8 +369,6 @@
               <a href="/post/isctf2025writeup/" title="ISCTF2025 Write Up">ISCTF2025 Write Up</a>
             </li><li>
               <a href="/post/rsa%E5%88%B7%E9%A2%981/" title="RSA刷题1">RSA刷题1</a>
-            </li><li>
-              <a href="/post/hello/" title="Hello World">Hello World</a>
             </li></ul>
       </div>
     </div>
@@ -367,13 +381,57 @@
     data-aos="fade-up"
   ><a
         class="post-link"
+        href="/post/prompt_injection/"
+        aria-label="提示词注入"
+        title="提示词注入"
+      >
+      </a><div
+      class="
+        post-cover left
+      "
+    ><img
+          data-src="/images/zhiyuan1.jpg"
+          data-sizes="auto"
+          alt=""
+          class="lazyload"
+        /></div>
+    <div class="post-info">
+      <div class="post-meta">
+        <span
+          ><span class="icon-calendar"></span
+          >2026-10-12</span
+        ><span
+          ><span class="icon-pencil"></span
+          >3532 字</span
+        >
+        <span
+          ><span class="icon-clock"></span
+          >8 分钟</span
+        >
+      </div>
+      <h2 class="post-title">提示词注入</h2>
+      <article class="post-article">提示词注入参考文章：CTF大语言模型（LLM）提示词注入12种方法
+1. 指令覆盖与逻辑夺权 (Instruction Override)核心逻辑是利用大模型对“最新指令”的较高权重，直接篡改或废除系统预设的规则。
+核心手法：使用具有极强命令语气的短语截断上下文。
+</article>
+    </div>
+  </div>
+</div>
+<div class="post-wrapper">
+  <div
+    class="
+      post-wrap right
+    "
+    data-aos="fade-up"
+  ><a
+        class="post-link"
         href="/post/2025yes/"
         aria-label="2025年终总结"
         title="2025年终总结"
       >
       </a><div
       class="
-        post-cover left
+        post-cover right
       "
     ><img
           data-src="/images/fuzhong2.JPG"
@@ -396,7 +454,7 @@
         >
       </div>
       <h2 class="post-title">2025年终总结</h2>
-      <article class="post-article"> 2025年终总结 恭喜又活一年
+      <article class="post-article">2025年终总结恭喜又活一年
 漫长的一年过去了，那个男人又要解冻了。
 这一年感觉做了好多，学了好多，但是又感觉还有好多东西要学。
 </article>
@@ -406,7 +464,7 @@
 <div class="post-wrapper">
   <div
     class="
-      post-wrap right
+      post-wrap left
     "
     data-aos="fade-up"
   ><a
@@ -417,7 +475,7 @@
       >
       </a><div
       class="
-        post-cover right
+        post-cover left
       "
     ><img
           data-src="/images/yantaishan1.JPG"
@@ -440,14 +498,14 @@
         >
       </div>
       <h2 class="post-title">Java文件读写</h2>
-      <article class="post-article"> Java文件读写 Java io流继承关系: // 输入字节流 InputStream ├── FileInputStream // 从文件中读取字节 ├── ByteArrayInputStream // 从字节数组中读取 ├── ObjectInputStream // 反序列化对象 ├── PipedInputStream // 管道流，用于线程间通信 └── FilterInputStream // 装饰流的基类 // 输出字节流 OutputStream ├── FileOutputStream // 写入字节到文件 ├── ByteArrayOutputStream // 写入字 …</article>
+      <article class="post-article">Java文件读写Java io流继承关系:// 输入字节流 InputStream ├── FileInputStream // 从文件中读取字节 ├── ByteArrayInputStream // 从字节数组中读取 ├── ObjectInputStream // 反序列化对象 ├── PipedInputStream // 管道流，用于线程间通信 └── FilterInputStream // 装饰流的基类 // 输出字节流 OutputStream ├── FileOutputStream // 写入字节到文件 ├── ByteArrayOutputStream // 写入字 …</article>
     </div>
   </div>
 </div>
 <div class="post-wrapper">
   <div
     class="
-      post-wrap left
+      post-wrap right
     "
     data-aos="fade-up"
   ><a
@@ -458,7 +516,7 @@
       >
       </a><div
       class="
-        post-cover left
+        post-cover right
       "
     ><img
           data-src="/images/zhiyuan2.jpg"
@@ -481,7 +539,7 @@
         >
       </div>
       <h2 class="post-title">ISCTF2025 Write Up</h2>
-      <article class="post-article"> ISCTF2025WP Web b@by n0t1ce b0ard 题目中提到CVE-2024-12233,是code-projects Online Notice Board（版本 ≤ 1.0）中的一个文件上传漏洞，打开靶机，是Online Notice Board首页，点sign up注册，传头像的地方就是该漏洞的点根据源码可知头像会上传到/images/$e(你填的邮箱地址),
+      <article class="post-article">ISCTF2025WPWebb@by n0t1ce b0ard题目中提到CVE-2024-12233,是code-projects Online Notice Board（版本 ≤ 1.0）中的一个文件上传漏洞，打开靶机，是Online Notice Board首页，点sign up注册，传头像的地方就是该漏洞的点根据源码可知头像会上传到/images/$e(你填的邮箱地址),
 </article>
     </div>
   </div>
@@ -489,7 +547,7 @@
 <div class="post-wrapper">
   <div
     class="
-      post-wrap right
+      post-wrap left
     "
     data-aos="fade-up"
   ><a
@@ -500,7 +558,7 @@
       >
       </a><div
       class="
-        post-cover right
+        post-cover left
       "
     ><img
           data-src="/images/fuzhong1.JPG"
@@ -523,7 +581,7 @@
         >
       </div>
       <h2 class="post-title">RSA刷题1</h2>
-      <article class="post-article"> RSA刷题1 攻防世界RSA_gcd 附件中给了两个n,两个c，一个e，
+      <article class="post-article">RSA刷题1攻防世界RSA_gcd附件中给了两个n,两个c，一个e，
 n: …</article>
     </div>
   </div>
@@ -531,7 +589,7 @@ n: …</article>
 <div class="post-wrapper">
   <div
     class="
-      post-wrap left
+      post-wrap right
     "
     data-aos="fade-up"
   ><a
@@ -542,7 +600,7 @@ n: …</article>
       >
       </a><div
       class="
-        post-cover left
+        post-cover right
       "
     ><img
           data-src="/images/zhiyuan1.jpg"
@@ -593,10 +651,10 @@ n: …</article>
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;7.3k</span
+          >&nbsp;10.8k</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;00:18</span>
+        <span class="icon-coffee">&nbsp;00:26</span>
       </div><div>
         <span class="icon-eye"></span>
         <span id="busuanzi_container_site_pv"
@@ -630,7 +688,7 @@ n: …</article>
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div><div class="sidebar-state-number">5</div>
+    <div>文章</div><div class="sidebar-state-number">6</div>
   </div>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>分类</div>
@@ -640,7 +698,7 @@ n: …</article>
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
     <div>标签</div>
-    <div class="sidebar-state-number">5</div>
+    <div class="sidebar-state-number">6</div>
   </a>
 </div>
 <div class="sidebar-social"><div class="icon-github sidebar-social-icon">
