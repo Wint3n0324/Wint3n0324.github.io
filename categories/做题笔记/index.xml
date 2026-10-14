@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>做题笔记 on Le blog de Winston-Charles-Franklin</title>
-    <link>http://localhost:1313/categories/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0/</link>
-    <description>Recent content from Le blog de Winston-Charles-Franklin</description>
+    <title>做题笔记 on Le blog de Winston</title>
+    <link>https:/Wint3n0324.github.io/categories/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content from Le blog de Winston</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     
-    <managingEditor>xxx@example.com (Winston-Charles-Franklin)</managingEditor>
-    <webMaster>xxx@example.com (Winston-Charles-Franklin)</webMaster>
+    <managingEditor>xxx@example.com (Winston)</managingEditor>
+    <webMaster>xxx@example.com (Winston)</webMaster>
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
     <lastBuildDate>Thu, 11 Dec 2025 21:57:00 +0800</lastBuildDate>
     
     
-    <atom:link href="http://localhost:1313/categories/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https:/Wint3n0324.github.io/categories/%E5%81%9A%E9%A2%98%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,12 +23,12 @@
 
     <item>
       <title>ISCTF2025 Write Up</title>
-      <link>http://localhost:1313/post/isctf2025writeup/</link>
+      <link>https:/Wint3n0324.github.io/post/isctf2025writeup/</link>
       <pubDate>Tue, 09 Dec 2025 23:09:00 &#43;0800</pubDate>
-      <author>xxx@example.com (Winston-Charles-Franklin)</author>
-      <guid>http://localhost:1313/post/isctf2025writeup/</guid>
+      <author>xxx@example.com (Winston)</author>
+      <guid>https:/Wint3n0324.github.io/post/isctf2025writeup/</guid>
       <description>
-        <![CDATA[<h1>ISCTF2025 Write Up</h1><p>作者：Winston-Charles-Franklin（xxx@example.com）</p>
+        <![CDATA[<h1>ISCTF2025 Write Up</h1><p>作者：Winston（xxx@example.com）</p>
         
           <h1 id="isctf2025wp">
 <a class="header-anchor" href="#isctf2025wp"></a>
@@ -41,7 +41,7 @@ Web
 b@by n0t1ce b0ard
 </h3><p>题目中提到CVE-2024-12233,是code-projects Online Notice Board（版本 ≤ 1.0）中的一个文件上传漏洞，打开靶机，是Online Notice Board首页，点sign up注册，传头像的地方就是该漏洞的点根据源码可知头像会上传到/images/$e(你填的邮箱地址),</p>
         
-        <hr><p>本文2025-12-09首发于<a href='http://localhost:1313/'>Le blog de Winston-Charles-Franklin</a>，最后修改于2025-12-11</p>]]>
+        <hr><p>本文2025-12-09首发于<a href='https:/Wint3n0324.github.io/'>Le blog de Winston</a>，最后修改于2025-12-11</p>]]>
       </description>
       
         <category>做题笔记</category>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Java on Le blog de Winston-Charles-Franklin</title>
-    <link>http://localhost:1313/tags/java/</link>
-    <description>Recent content from Le blog de Winston-Charles-Franklin</description>
+    <title>Java on Le blog de Winston</title>
+    <link>https:/Wint3n0324.github.io/tags/java/</link>
+    <description>Recent content from Le blog de Winston</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     
-    <managingEditor>xxx@example.com (Winston-Charles-Franklin)</managingEditor>
-    <webMaster>xxx@example.com (Winston-Charles-Franklin)</webMaster>
+    <managingEditor>xxx@example.com (Winston)</managingEditor>
+    <webMaster>xxx@example.com (Winston)</webMaster>
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
     <lastBuildDate>Thu, 25 Dec 2025 20:17:00 +0800</lastBuildDate>
     
     
-    <atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https:/Wint3n0324.github.io/tags/java/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,12 +23,12 @@
 
     <item>
       <title>Java文件读写</title>
-      <link>http://localhost:1313/post/java_file_io/</link>
+      <link>https:/Wint3n0324.github.io/post/java_file_io/</link>
       <pubDate>Thu, 25 Dec 2025 20:17:00 &#43;0800</pubDate>
-      <author>xxx@example.com (Winston-Charles-Franklin)</author>
-      <guid>http://localhost:1313/post/java_file_io/</guid>
+      <author>xxx@example.com (Winston)</author>
+      <guid>https:/Wint3n0324.github.io/post/java_file_io/</guid>
       <description>
-        <![CDATA[<h1>Java文件读写</h1><p>作者：Winston-Charles-Franklin（xxx@example.com）</p>
+        <![CDATA[<h1>Java文件读写</h1><p>作者：Winston（xxx@example.com）</p>
         
           <h1 id="java文件读写">
 <a class="header-anchor" href="#java%e6%96%87%e4%bb%b6%e8%af%bb%e5%86%99"></a>
@@ -70,7 +70,7 @@ Java io流继承关系:
 文件读取
 </h2><p>InputStream方法:</p>
         
-        <hr><p>本文2025-12-25首发于<a href='http://localhost:1313/'>Le blog de Winston-Charles-Franklin</a>，最后修改于2025-12-25</p>]]>
+        <hr><p>本文2025-12-25首发于<a href='https:/Wint3n0324.github.io/'>Le blog de Winston</a>，最后修改于2025-12-25</p>]]>
       </description>
       
         <category>学习笔记</category>
