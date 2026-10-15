@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>基础 on Le blog de Winston</title>
+    <link>http://localhost:1313/tags/%E5%9F%BA%E7%A1%80/</link>
+    <description>Recent content from Le blog de Winston</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+    <managingEditor>xxx@example.com (Winston)</managingEditor>
+    <webMaster>xxx@example.com (Winston)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Thu, 15 Oct 2026 21:44:00 +0800</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1313/tags/%E5%9F%BA%E7%A1%80/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Graph渗透</title>
+      <link>http://localhost:1313/post/graphql/</link>
+      <pubDate>Thu, 15 Oct 2026 21:44:00 &#43;0800</pubDate>
+      <author>xxx@example.com (Winston)</author>
+      <guid>http://localhost:1313/post/graphql/</guid>
+      <description>
+        <![CDATA[<h1>Graph渗透</h1><p>作者：Winston（xxx@example.com）</p>
+        
+          <h1 id="graphql">
+<a class="header-anchor" href="#graphql"></a>
+GraphQL
+</h1><p>参考文章:<a href="https://www.cnblogs.com/yuy0ung/articles/18706771">浅谈GraphQL渗透测试</a></p>
+<h2 id="graphql概念">
+<a class="header-anchor" href="#graphql%e6%a6%82%e5%bf%b5"></a>
+GraphQL概念
+</h2><p>GraphQL是一个用于 API的查询语言，下面我用通俗的语言来谈谈它的特点：</p>
+<p>简单说，GraphQL 是一种“灵活取数据”的工具。比如你点外卖时，可以自由组合菜品，而不用按固定套餐点。GraphQL 的作用类似：前端可以按需“点”数据，后端精准返回</p>
+        
+        <hr><p>本文2026-10-15首发于<a href='http://localhost:1313/'>Le blog de Winston</a>，最后修改于2026-10-15</p>]]>
+      </description>
+      
+        <category>学习笔记</category>
+      
+    </item>
+    
+  </channel>
+</rss>
