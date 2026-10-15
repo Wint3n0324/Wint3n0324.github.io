@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>年终总结 on Le blog de Winston</title>
-    <link>http://localhost:1313/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</link>
+    <link>https://Wint3n0324.github.io/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</link>
     <description>Recent content from Le blog de Winston</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Tue, 30 Dec 2025 20:10:00 +0800</lastBuildDate>
     
     
-    <atom:link href="http://localhost:1313/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://Wint3n0324.github.io/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>2025年终总结</title>
-      <link>http://localhost:1313/post/2025yes/</link>
+      <link>https://Wint3n0324.github.io/post/2025yes/</link>
       <pubDate>Tue, 30 Dec 2025 20:10:00 &#43;0800</pubDate>
       <author>xxx@example.com (Winston)</author>
-      <guid>http://localhost:1313/post/2025yes/</guid>
+      <guid>https://Wint3n0324.github.io/post/2025yes/</guid>
       <description>
         <![CDATA[<h1>2025年终总结</h1><p>作者：Winston（xxx@example.com）</p>
         
@@ -37,7 +37,7 @@
 <p>漫长的一年过去了，那个男人又要解冻了。</p>
 <p>这一年感觉做了好多，学了好多，但是又感觉还有好多东西要学。</p>
         
-        <hr><p>本文2025-12-30首发于<a href='http://localhost:1313/'>Le blog de Winston</a>，最后修改于2025-12-30</p>]]>
+        <hr><p>本文2025-12-30首发于<a href='https://Wint3n0324.github.io/'>Le blog de Winston</a>，最后修改于2025-12-30</p>]]>
       </description>
       
         <category>年终总结</category>

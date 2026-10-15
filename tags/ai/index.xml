@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Le blog de Winston</title>
-    <link>http://localhost:1313/tags/ai/</link>
+    <link>https://Wint3n0324.github.io/tags/ai/</link>
     <description>Recent content from Le blog de Winston</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Mon, 12 Oct 2026 22:15:00 +0800</lastBuildDate>
     
     
-    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://Wint3n0324.github.io/tags/ai/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>提示词注入</title>
-      <link>http://localhost:1313/post/prompt_injection/</link>
+      <link>https://Wint3n0324.github.io/post/prompt_injection/</link>
       <pubDate>Mon, 12 Oct 2026 22:15:00 &#43;0800</pubDate>
       <author>xxx@example.com (Winston)</author>
-      <guid>http://localhost:1313/post/prompt_injection/</guid>
+      <guid>https://Wint3n0324.github.io/post/prompt_injection/</guid>
       <description>
         <![CDATA[<h1>提示词注入</h1><p>作者：Winston（xxx@example.com）</p>
         
@@ -40,7 +40,7 @@
 </h3><p>核心逻辑是利用大模型对“最新指令”的较高权重，直接篡改或废除系统预设的规则。</p>
 <p>核心手法：使用具有极强命令语气的短语截断上下文。</p>
         
-        <hr><p>本文2026-10-12首发于<a href='http://localhost:1313/'>Le blog de Winston</a>，最后修改于2026-10-12</p>]]>
+        <hr><p>本文2026-10-12首发于<a href='https://Wint3n0324.github.io/'>Le blog de Winston</a>，最后修改于2026-10-12</p>]]>
       </description>
       
         <category>学习笔记</category>
