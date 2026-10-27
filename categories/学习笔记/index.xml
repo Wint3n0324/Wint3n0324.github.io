@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>学习笔记 on Le blog de Winston</title>
-    <link>https://Wint3n0324.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+    <link>http://localhost:1313/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
     <description>Recent content from Le blog de Winston</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Tue, 27 Oct 2026 11:22:00 +0800</lastBuildDate>
     
     
-    <atom:link href="https://Wint3n0324.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>记一次修U盘</title>
-      <link>https://Wint3n0324.github.io/post/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AEu%E7%9B%98/</link>
+      <link>http://localhost:1313/post/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AEu%E7%9B%98/</link>
       <pubDate>Tue, 27 Oct 2026 11:22:00 &#43;0800</pubDate>
       <author>xxx@example.com (Winston)</author>
-      <guid>https://Wint3n0324.github.io/post/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AEu%E7%9B%98/</guid>
+      <guid>http://localhost:1313/post/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AEu%E7%9B%98/</guid>
       <description>
         <![CDATA[<h1>记一次修U盘</h1><p>作者：Winston（xxx@example.com）</p>
         
@@ -35,7 +35,7 @@
 记一次修U盘
 </h1><p>之前在机房上课（大概是10月8号）拷文件不小心拖了两个不该拖的文件进来，一个是某个A什么软件的文件夹，还有本地的“库”文件夹，后面用U盘拷文件就老是损坏，偶尔一两个是好的，但是放U盘里后面也会坏，发现不对注意到这两个目录不对，是多出来的，但是想删掉会提示损坏，删不掉。后来一查可以用chkdsk(Windows自带)，扫了一下就是这两个目录的问题，用/F参数修复，然后再进U盘，可以删掉了，不过得快点，不然又会损坏没法删，后面再chkdsk就没问题了。</p>
         
-        <hr><p>本文2026-10-27首发于<a href='https://Wint3n0324.github.io/'>Le blog de Winston</a>，最后修改于2026-10-27</p>]]>
+        <hr><p>本文2026-10-27首发于<a href='http://localhost:1313/'>Le blog de Winston</a>，最后修改于2026-10-27</p>]]>
       </description>
       
         <category>学习笔记</category>
@@ -46,10 +46,10 @@
 
     <item>
       <title>Graph渗透</title>
-      <link>https://Wint3n0324.github.io/post/graphql/</link>
+      <link>http://localhost:1313/post/graphql/</link>
       <pubDate>Thu, 15 Oct 2026 21:44:00 &#43;0800</pubDate>
       <author>xxx@example.com (Winston)</author>
-      <guid>https://Wint3n0324.github.io/post/graphql/</guid>
+      <guid>http://localhost:1313/post/graphql/</guid>
       <description>
         <![CDATA[<h1>Graph渗透</h1><p>作者：Winston（xxx@example.com）</p>
         
@@ -63,7 +63,7 @@ GraphQL概念
 </h2><p>GraphQL是一个用于 API的查询语言，下面我用通俗的语言来谈谈它的特点：</p>
 <p>简单说，GraphQL 是一种“灵活取数据”的工具。比如你点外卖时，可以自由组合菜品，而不用按固定套餐点。GraphQL 的作用类似：前端可以按需“点”数据，后端精准返回</p>
         
-        <hr><p>本文2026-10-15首发于<a href='https://Wint3n0324.github.io/'>Le blog de Winston</a>，最后修改于2026-10-15</p>]]>
+        <hr><p>本文2026-10-15首发于<a href='http://localhost:1313/'>Le blog de Winston</a>，最后修改于2026-10-15</p>]]>
       </description>
       
         <category>学习笔记</category>
@@ -74,10 +74,10 @@ GraphQL概念
 
     <item>
       <title>提示词注入</title>
-      <link>https://Wint3n0324.github.io/post/prompt_injection/</link>
+      <link>http://localhost:1313/post/prompt_injection/</link>
       <pubDate>Mon, 12 Oct 2026 22:15:00 &#43;0800</pubDate>
       <author>xxx@example.com (Winston)</author>
-      <guid>https://Wint3n0324.github.io/post/prompt_injection/</guid>
+      <guid>http://localhost:1313/post/prompt_injection/</guid>
       <description>
         <![CDATA[<h1>提示词注入</h1><p>作者：Winston（xxx@example.com）</p>
         
@@ -91,7 +91,7 @@ GraphQL概念
 </h3><p>核心逻辑是利用大模型对“最新指令”的较高权重，直接篡改或废除系统预设的规则。</p>
 <p>核心手法：使用具有极强命令语气的短语截断上下文。</p>
         
-        <hr><p>本文2026-10-12首发于<a href='https://Wint3n0324.github.io/'>Le blog de Winston</a>，最后修改于2026-10-12</p>]]>
+        <hr><p>本文2026-10-12首发于<a href='http://localhost:1313/'>Le blog de Winston</a>，最后修改于2026-10-12</p>]]>
       </description>
       
         <category>学习笔记</category>
@@ -102,10 +102,10 @@ GraphQL概念
 
     <item>
       <title>Java文件读写</title>
-      <link>https://Wint3n0324.github.io/post/java_file_io/</link>
+      <link>http://localhost:1313/post/java_file_io/</link>
       <pubDate>Thu, 25 Dec 2025 20:17:00 &#43;0800</pubDate>
       <author>xxx@example.com (Winston)</author>
-      <guid>https://Wint3n0324.github.io/post/java_file_io/</guid>
+      <guid>http://localhost:1313/post/java_file_io/</guid>
       <description>
         <![CDATA[<h1>Java文件读写</h1><p>作者：Winston（xxx@example.com）</p>
         
@@ -149,7 +149,7 @@ Java io流继承关系:
 文件读取
 </h2><p>InputStream方法:</p>
         
-        <hr><p>本文2025-12-25首发于<a href='https://Wint3n0324.github.io/'>Le blog de Winston</a>，最后修改于2025-12-25</p>]]>
+        <hr><p>本文2025-12-25首发于<a href='http://localhost:1313/'>Le blog de Winston</a>，最后修改于2025-12-25</p>]]>
       </description>
       
         <category>学习笔记</category>
@@ -160,10 +160,10 @@ Java io流继承关系:
 
     <item>
       <title>RSA刷题1</title>
-      <link>https://Wint3n0324.github.io/post/rsa%E5%88%B7%E9%A2%981/</link>
+      <link>http://localhost:1313/post/rsa%E5%88%B7%E9%A2%981/</link>
       <pubDate>Mon, 24 Nov 2025 23:55:00 &#43;0800</pubDate>
       <author>xxx@example.com (Winston)</author>
-      <guid>https://Wint3n0324.github.io/post/rsa%E5%88%B7%E9%A2%981/</guid>
+      <guid>http://localhost:1313/post/rsa%E5%88%B7%E9%A2%981/</guid>
       <description>
         <![CDATA[<h1>RSA刷题1</h1><p>作者：Winston（xxx@example.com）</p>
         
@@ -184,7 +184,7 @@ RSA刷题1
 </span></span><span class="line"><span class="cl">c：20513108670823938405207629835395350087127287494963553421797351726233221750526355985253069487753150978011340115173042210284965521215128799369083065796356395285905154260709263197195828765397189267866348946188652752076472172155755940282615212228370367042435203584159326078238921502151083768908742480756781277358357734545694917591921150127540286087770229112383605858821811640935475859936319249757754722093551370392083736485637225052738864742947137890363135709796410008845576985297696922681043649916650599349320818901512835007050425460872675857974069927846620905981374869166202896905600343223640296138423898703137236463508
 </span></span></code></pre></div><p>求最大公约数，找到p，分别求q1，q2，再求出d1，d2，解出两个明文m1，m2.</p>
         
-        <hr><p>本文2025-11-24首发于<a href='https://Wint3n0324.github.io/'>Le blog de Winston</a>，最后修改于2025-11-24</p>]]>
+        <hr><p>本文2025-11-24首发于<a href='http://localhost:1313/'>Le blog de Winston</a>，最后修改于2025-11-24</p>]]>
       </description>
       
         <category>学习笔记</category>
