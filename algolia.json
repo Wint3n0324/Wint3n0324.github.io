@@ -1,5 +1,11 @@
 [
   {
+    "objectID": "00ffb3b1a10ee0ce014986008fd975dd803a1d13",
+    "permalink": "/post/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AEu%E7%9B%98/",
+    "title": "记一次修U盘","content": "\r记一次修U盘\r之前在机房上课（大概是10月8号）拷文件不小心拖了两个不该拖的文件进来，一个是某个A什么软件的文件夹，还有本地的“库”文件夹，后面用U盘拷文件就老是损坏，偶尔一两个是好的，但是放U盘里后面也会坏，发现不对注意到这两个目录不对，是多出来的，但是想删掉会提示损坏，删不掉。后来一查可以用chkdsk(Windows自带)，扫了一下就是这两个目录的问题，用/F参数修复，然后再进U盘，可以删掉了，不过得快点，不然又会损坏没法删，后面再chkdsk就没问题了。\n","date": "2026-10-27 11:22:00",
+    "updated": "2026-10-27 11:22:00"
+  }, 
+  {
     "objectID": "6f57bff11f1329b01bc5d28e08c5232783ef567f",
     "permalink": "/post/graphql/",
     "title": "Graph渗透","content": "\rGraphQL\r参考文章:浅谈GraphQL渗透测试\nGraphQL概念\rGraphQL是一个用于 API的查询语言，下面我用通俗的语言来谈谈它的特点：\n简单说，GraphQL 是一种“灵活取数据”的工具。比如你点外卖时，可以自由组合菜品，而不用按固定套餐点。GraphQL 的作用类似：前端可以按需“点”数据，后端精准返回\n那么这里就可以看出GraphQL与传统Rest API的区别了，我们同样以”点外卖“来描述：\nRest API：固定套餐，比如\n套餐A：用户信息（姓名、头像） 套餐B：用户的朋友列表 那么可以看出来它的局限：如果你想同时要“用户姓名”和“朋友列表”，得点两次套餐（发两次请求），或者让后端临时做个新套餐（改接口）\nGraphQL：自助餐，想要什么直接通过接口告诉后端，比如下面这个请求：\nquery { user { name # 只要姓名 friends { # 和朋友列表 name } } } 这个请求能够，一次精准拿到 name 和 friends 数据，不会多拿（比如不需要头像），也不会少拿\n通过上面的描述，我们能够知道GraphQL API与Rest API最大的区别：GraphQL 通过将数据查询和数据修改分离开来，使得客户端能够更灵活地控制所需数据的粒度和类型，并且在多个资源之间建立关系\nGraphQL查询方式 查询方式主要有：\nQuery Mutation Subscription Input Enum Union Interface 最常见的是Query、Mutation、Subscription三种，这里简单举例：\nQuery（查询） 用于获取数据，只读取不修改：\nquery 操作名称(可选参数) { 字段名(参数) { 子字段 } } Mutation（变更） 用于修改数据，属于写操作，会改变服务器状态：\nmutation 操作名称(输入参数) { 操作名(输入) { 返回的字段 } } Subscription（订阅） 实时监听数据变化（类似 WebSocket），属于长连接，服务器主动推送数据：\nsubscription 操作名称 { 监听的事件名 { 返回的字段 } } 例 简单介绍了，再举个例子，请求如下：\n查询用户信息及其文章标题\rquery GetUserWithPosts($userId: ID!) { …","date": "2026-10-15 21:44:00",

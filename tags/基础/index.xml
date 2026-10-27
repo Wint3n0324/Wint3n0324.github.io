@@ -12,12 +12,35 @@
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Thu, 15 Oct 2026 21:44:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 11:22:00 +0800</lastBuildDate>
     
     
     <atom:link href="https://Wint3n0324.github.io/tags/%E5%9F%BA%E7%A1%80/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>记一次修U盘</title>
+      <link>https://Wint3n0324.github.io/post/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AEu%E7%9B%98/</link>
+      <pubDate>Tue, 27 Oct 2026 11:22:00 &#43;0800</pubDate>
+      <author>xxx@example.com (Winston)</author>
+      <guid>https://Wint3n0324.github.io/post/%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BF%AEu%E7%9B%98/</guid>
+      <description>
+        <![CDATA[<h1>记一次修U盘</h1><p>作者：Winston（xxx@example.com）</p>
+        
+          <h1 id="记一次修u盘">
+<a class="header-anchor" href="#%e8%ae%b0%e4%b8%80%e6%ac%a1%e4%bf%aeu%e7%9b%98"></a>
+记一次修U盘
+</h1><p>之前在机房上课（大概是10月8号）拷文件不小心拖了两个不该拖的文件进来，一个是某个A什么软件的文件夹，还有本地的“库”文件夹，后面用U盘拷文件就老是损坏，偶尔一两个是好的，但是放U盘里后面也会坏，发现不对注意到这两个目录不对，是多出来的，但是想删掉会提示损坏，删不掉。后来一查可以用chkdsk(Windows自带)，扫了一下就是这两个目录的问题，用/F参数修复，然后再进U盘，可以删掉了，不过得快点，不然又会损坏没法删，后面再chkdsk就没问题了。</p>
+        
+        <hr><p>本文2026-10-27首发于<a href='https://Wint3n0324.github.io/'>Le blog de Winston</a>，最后修改于2026-10-27</p>]]>
+      </description>
+      
+        <category>学习笔记</category>
+      
+    </item>
     
     
 
